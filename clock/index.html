@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Digi-Clock</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1 id="time">TIME</h1>
+
+        <div data-aos="fade-up" data-aos-duration="1500"  class="container">
+            <div class="box">
+                <div class="clock">
+                    <div class="front-clock">
+                        <div id="hour">00</div>
+                        <p>hour</p>
+                    </div>
+                </div>
+    
+                <div class="clock">
+                    <div class="front-clock">
+                        <div id="minutes">00</div>
+                        <p>minutes</p>
+                    </div>
+                </div>
+    
+                <div class="clock">
+                    <div class="front-clock">
+                        <div id="seconds">00</div>
+                        <p>seconds</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"  id="date"></div>
+        <p id="madeby">Made by <a href="https://github.com/VaidehiS74" target="_blank">Vaidehi </a></p>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
